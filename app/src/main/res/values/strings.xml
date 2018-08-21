@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">ExploreHub </string>
+    <string name="share"> </string>
+    <string name="heart"> </string>
+    <string name="drop11">Google</string>
+    <string name="drop12">Yelp</string>
+    <string name="drop21">Default Order</string>
+    <string name="drop22">Highest Rating</string>
+    <string name="drop23">Lowest Rating</string>
+    <string name="drop24">Most recent</string>
+    <string name="drop25">Least recent</string>
+
+    <string name="map1">Driving</string>
+    <string name="map2">Bicycling</string>
+    <string name="map3">Transit</string>
+    <string name="map4">Walking</string>
+
+    <string name="feedbacktype1">Default</string>
+    <string name="feedbacktype2">Airport</string>
+    <string name="feedbacktype3">Amusement Park</string>
+    <string name="feedbacktype4">Aquarium</string>
+    <string name="feedbacktype5">Art Gallery</string>
+    <string name="feedbacktype6">Bakery</string>
+    <string name="feedbacktype7">Bar</string>
+    <string name="feedbacktype8">Beauty Salon</string>
+    <string name="feedbacktype9">Bowling Alley</string>
+    <string name="feedbacktype10">Bus Station</string>
+    <string name="feedbacktype11">Cafe</string>
+    <string name="feedbacktype12">Campground</string>
+    <string name="feedbacktype13">Car Rental</string>
+    <string name="feedbacktype14">Casino</string>
+    <string name="feedbacktype15">Lodging</string>
+    <string name="feedbacktype16">Movie theatre</string>
+    <string name="feedbacktype17">Museum</string>
+    <string name="feedbacktype18">Night Club</string>
+    <string name="feedbacktype19">Park</string>
+    <string name="feedbacktype20">Parking</string>
+    <string name="feedbacktype21">Restaurant</string>
+    <string name="feedbacktype22">Shopping Mall</string>
+    <string name="feedbacktype23">Stadium</string>
+    <string name="feedbacktype24">Subway Station</string>
+    <string name="feedbacktype25">Taxi Stand</string>
+    <string name="feedbacktype26">Train Station</string>
+    <string name="feedbacktype27">Transit Station</string>
+    <string name="feedbacktype28">Travel Agency</string>
+    <string name="feedbacktype29">Zoo</string>
+    <string-array name="drop1">
+    <item>@string/drop11</item>
+    <item>@string/drop12</item>
+    </string-array>
+    <string-array name="drop2">
+        <item>@string/drop21</item>
+        <item>@string/drop22</item>
+        <item>@string/drop23</item>
+        <item>@string/drop24</item>
+        <item>@string/drop25</item>
+    </string-array>
+    <string-array name="map">
+        <item>@string/map1</item>
+        <item>@string/map2</item>
+        <item>@string/map3</item>
+        <item>@string/map4</item>
+    </string-array>
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+        <item>@string/feedbacktype5</item>
+        <item>@string/feedbacktype6</item>
+        <item>@string/feedbacktype7</item>
+        <item>@string/feedbacktype8</item>
+        <item>@string/feedbacktype9</item>
+        <item>@string/feedbacktype10</item>
+        <item>@string/feedbacktype11</item>
+        <item>@string/feedbacktype12</item>
+        <item>@string/feedbacktype13</item>
+        <item>@string/feedbacktype14</item>
+        <item>@string/feedbacktype15</item>
+        <item>@string/feedbacktype16</item>
+        <item>@string/feedbacktype17</item>
+        <item>@string/feedbacktype18</item>
+        <item>@string/feedbacktype19</item>
+        <item>@string/feedbacktype20</item>
+        <item>@string/feedbacktype21</item>
+        <item>@string/feedbacktype22</item>
+        <item>@string/feedbacktype23</item>
+        <item>@string/feedbacktype24</item>
+        <item>@string/feedbacktype25</item>
+        <item>@string/feedbacktype26</item>
+        <item>@string/feedbacktype27</item>
+        <item>@string/feedbacktype28</item>
+        <item>@string/feedbacktype29</item>
+    </string-array>
+</resources>

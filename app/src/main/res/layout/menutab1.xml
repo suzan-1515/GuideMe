@@ -1,0 +1,157 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_margin="9dp"
+>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:id="@+id/row1">
+
+        <TextView
+            android:text="Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="210dp" android:layout_height="55dp">
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="0.10in"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:id="@+id/row2">
+
+        <TextView
+            android:text="Phone Number "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="210dp" android:layout_height="45dp">
+            <TextView
+            android:id="@+id/Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="0.10in"/>
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:id="@+id/row3">
+        <TextView
+            android:text="Price Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="210dp" android:layout_height="45dp">
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="0.10in"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:padding="9dp"
+        android:id="@+id/row4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Rating"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="80dp" android:layout_height="45dp">
+            <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            style="?attr/ratingBarStyleSmall"/>
+        </RelativeLayout>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:id="@+id/row5">
+
+        <TextView
+            android:text="Google page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="210dp" android:layout_height="60dp">
+        <TextView
+            android:id="@+id/google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="0.10in"
+            android:clickable="true"/>
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:id="@+id/row6">
+
+        <TextView
+            android:text="Website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="0.10in"/>
+
+        <RelativeLayout android:layout_width="210dp" android:layout_height="45dp">
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:textSize="0.10in"
+            android:clickable="true"/>
+        </RelativeLayout>
+    </TableRow>
+
+</TableLayout>

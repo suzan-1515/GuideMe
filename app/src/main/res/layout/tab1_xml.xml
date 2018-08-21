@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Keyword"
+        android:textSize="8pt">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ErrorTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= ""
+        android:textSize="8pt">
+    </TextView>
+
+    <EditText
+        android:id="@+id/keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Keyword" />
+
+
+    <TextView
+        android:id="@+id/Cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Category"
+        android:textSize="8pt">
+    </TextView>
+    <Spinner
+        android:id="@+id/spinnercat"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:entries="@array/feedbacktypelist">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/TextViewDist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Distance(in Miles)"
+        android:textSize="8pt">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextDist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter distance(Default 10 Miles)" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "From"
+        android:textSize="8pt">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current location"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other. Specify Location" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ErrorTextLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= ""
+        android:textSize="8pt">
+    </TextView>
+
+
+    <com.seatgeek.placesautocomplete.PlacesAutocompleteTextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type in the location"
+        app:pacv_googleMapsApiKey="AIzaSyB_80UHaL3Lg0Z681PxVXPPTr_Tcg4FzIs"/>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Search">
+        </Button>
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
